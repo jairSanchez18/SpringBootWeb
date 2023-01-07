@@ -36,6 +36,10 @@ public class ProductoModel {
 		this.cantidad = cantidad;
 		this.precio = precio;
 	}
+	
+	public ProductoModel() {
+		
+	}
 
 	public int getId() {
 		return id;
