@@ -17,7 +17,7 @@ import com.jairsan.spring.model.ProductoModel;
 import com.jairsan.spring.services.ProductoServices;
 
 @RestController
-@RequestMapping("/producto")
+@RequestMapping("/producto/api")
 public class ProductoController {
 	@Autowired
 	ProductoServices productoServices;
